@@ -7,7 +7,11 @@ function Home() {
     return (
         <>
             <Header />
-            <Hero image={Gorilla}/>
+            <Hero 
+                image = {Gorilla} 
+                title = "Save the Great Apes" 
+                description = "Lowland Gorillas need our help"
+            />
         </>
     )
 }

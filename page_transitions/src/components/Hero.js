@@ -16,20 +16,20 @@ const Container = styled.div`
 
     color: #fff;
     padding: 2rem;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.4);
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 10px;
 
     h1 {
 
-        font-size: clamp(2rem, 8vw, 5rem);
+        font-size: clamp(1rem, 6vw, 3.5rem);
         margin-bottom: 0.5rem;
     }
 
     p {
 
-        font-size: clamp(1rem, 6vw, 2.5rem);
+        font-size: clamp(0.75rem, 4vw, 1rem);
         margin-bottom: 1rem;
     }
 
@@ -37,7 +37,7 @@ const Container = styled.div`
 
         font-size: clamp(0.8rem, 4vw, 1.2rem);
         padding: 0.8rem 2rem;
-        color: #000;
+        color: white;
         background: #ffb347;
         background: linear-gradient(to right, #ffcc33, #ffb347);
         border: none;
@@ -50,12 +50,12 @@ const Container = styled.div`
 
 
 
-function Hero({image}) {
+function Hero({ image, title, description }) {
     return (
         <HeroSection image={image}>
             <Container>
-                <h1>title</h1>
-                <p>description</p>
+                <h1>{title}</h1>
+                <p>{description}</p>
                 <button>Learn more</button>
             </Container>
         </HeroSection>
