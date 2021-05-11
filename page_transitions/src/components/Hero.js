@@ -1,10 +1,25 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const HeroSection = styled.div`
+
+`;
+
+const Container = styled.div`
+
+`;
+
+
 
 function Hero() {
     return (
-        <div>
-            <h2>hero</h2>
-        </div>
+        <HeroSection>
+            <Container>
+                <h1>title</h1>
+                <p>description</p>
+                <button>Learn more</button>
+            </Container>
+        </HeroSection>
     )
 }
 
