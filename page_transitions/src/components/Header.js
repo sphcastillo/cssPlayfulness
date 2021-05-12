@@ -36,8 +36,8 @@ function Header() {
             <Logo to="/">Animal</Logo>
             <NavItems>
                 <NavbarLink to="/">Home</NavbarLink>
-                <NavbarLink  to="/about">About</NavbarLink>
-                <NavbarLink to="/services">Services</NavbarLink>
+                <NavbarLink  to="/conservation">Conservation</NavbarLink>
+                <NavbarLink to="/explore">Explore</NavbarLink>
             </NavItems>
         </Navbar>
     )
