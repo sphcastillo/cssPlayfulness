@@ -19,7 +19,7 @@ function Conservation() {
                 title = "Save the Polar Bears"
                 description = "Habitat destruction is an issue polar bears are facing"
             />
-            
+            Text Below Image
         </motion.div>
     )
 }

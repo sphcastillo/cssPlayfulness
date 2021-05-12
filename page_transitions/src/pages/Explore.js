@@ -19,7 +19,7 @@ function Explore() {
                 title = "Save the Elephants"
                 description = "Africa and Asian elephant populations are both at risk"
             />
-            
+            Text Below Image
         </motion.div>
     )
 }
